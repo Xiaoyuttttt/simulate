@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+logs/
+outputs/
+stages/
+*.tar.gz
+*.mp4
+*.png
+failure.json
+color_failure.json

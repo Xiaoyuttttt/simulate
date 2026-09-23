@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "isaac_sim_version": "5.1.0.0",
+  "demo": {
+    "distance_m": 5.0,
+    "speed_mps": 0.3,
+    "physics_hz": 120,
+    "record_fps": 10,
+    "road_half_width_m": 1.5,
+    "road_start_padding_m": 1.0,
+    "road_end_padding_m": 1.0,
+    "wheel_drive_sign": 1.0,
+    "wheel_drive_damping": 8.0,
+    "wheel_drive_max_force": 20.0,
+    "chassis_mass_kg": 18.0,
+    "wheel_mass_kg": 1.0,
+    "settle_seconds": 1.5,
+    "timeout_margin_seconds": 12.0,
+    "max_lateral_error_m": 0.75,
+    "minimum_progress_m": 4.0
+  },
+  "road": {
+    "source": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/outputs/control_route_ground/grounded_control_route.csv",
+    "samples": 26,
+    "triangles": 50,
+    "half_width_m": 1.5,
+    "z_range_m": [
+      -0.5577586816497195,
+      -0.5577586816497195
+    ]
+  },
+  "wheel_radius_m": 0.16,
+  "wheel_target_rad_s": 1.875,
+  "wheel_records": [
+    {
+      "name": "FrontLeft",
+      "path": "/World/Car/Wheels/FrontLeft",
+      "joint": "/World/Car/Joints/FrontLeftJoint"
+    },
+    {
+      "name": "FrontRight",
+      "path": "/World/Car/Wheels/FrontRight",
+      "joint": "/World/Car/Joints/FrontRightJoint"
+    },
+    {
+      "name": "RearLeft",
+      "path": "/World/Car/Wheels/RearLeft",
+      "joint": "/World/Car/Joints/RearLeftJoint"
+    },
+    {
+      "name": "RearRight",
+      "path": "/World/Car/Wheels/RearRight",
+      "joint": "/World/Car/Joints/RearRightJoint"
+    }
+  ],
+  "progress_m": 5.002855300914675,
+  "maximum_lateral_error_m": 0.00033163995898868767,
+  "frame_count": 168,
+  "trajectory_csv": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/outputs/straight_physics_demo/trajectory_frames.csv",
+  "stage": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/stages/campus_car_straight_physics.usd",
+  "camera_prim": "/World/Car/Chassis/FirstPersonCamera",
+  "validation": {
+    "driven_by_wheel_velocity_only": true,
+    "minimum_progress_reached": true,
+    "lateral_error_within_limit": true,
+    "trajectory_has_multiple_frames": true
+  }
+}
