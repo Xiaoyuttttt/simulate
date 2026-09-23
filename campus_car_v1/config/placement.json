@@ -1,0 +1,67 @@
+{
+  "project_root": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1",
+  "campus_usd": "/mnt/16T_2/txy/campus_robot/assets/library_AG_visual.usd",
+  "campus_obj": "/mnt/16T_2/txy/campus_robot/assets/library_AG.obj",
+  "waypoints_csv": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/config/waypoints.csv",
+  "output_dir": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/outputs/placement_p1",
+  "stage_path": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/stages/campus_car_p1.usd",
+  "render": {
+    "width": 960,
+    "height": 540,
+    "renderer": "RaytracedLighting"
+  },
+  "ground_probe": {
+    "search_radius_m": 2.5,
+    "grid_step_m": 0.25,
+    "max_slope_deg": 15.0,
+    "calibrated_p1_ground_z": -0.4627926015443863,
+    "relative_z_hint_weight": 0.25,
+    "candidate_z_bin_m": 0.25,
+    "candidates_per_z_bin": 8,
+    "max_candidates_per_waypoint": 320,
+    "max_route_grade": 0.40,
+    "min_transition_height_m": 1.0,
+    "triangle_chunk_size": 300000
+  },
+  "control_route": {
+    "input_csv": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/config/route_control_points.csv",
+    "sample_spacing_m": 0.25,
+    "corridor_half_width_m": 1.0,
+    "nearby_probe_radius_m": 0.5,
+    "nearby_probe_step_m": 0.1,
+    "max_surface_slope_deg": 25.0,
+    "min_ground_z_m": -3.0,
+    "max_ground_z_m": 5.0,
+    "max_grade": 0.35,
+    "minimum_direct_hit_ratio": 0.65,
+    "robust_z_median_window": 31,
+    "z_smoothing_window": 21,
+    "output_max_grade": 0.08
+  },
+  "car": {
+    "length_m": 1.0,
+    "width_m": 0.65,
+    "chassis_height_m": 0.22,
+    "wheel_radius_m": 0.16,
+    "wheel_width_m": 0.10,
+    "ground_clearance_m": 0.02
+  },
+  "straight_physics_demo": {
+    "distance_m": 5.0,
+    "speed_mps": 0.30,
+    "physics_hz": 120,
+    "record_fps": 10,
+    "road_half_width_m": 1.5,
+    "road_start_padding_m": 1.0,
+    "road_end_padding_m": 1.0,
+    "wheel_drive_sign": 1.0,
+    "wheel_drive_damping": 8.0,
+    "wheel_drive_max_force": 20.0,
+    "chassis_mass_kg": 18.0,
+    "wheel_mass_kg": 1.0,
+    "settle_seconds": 1.5,
+    "timeout_margin_seconds": 12.0,
+    "max_lateral_error_m": 0.75,
+    "minimum_progress_m": 4.0
+  }
+}

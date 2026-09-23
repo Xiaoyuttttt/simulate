@@ -1,0 +1,32 @@
+{
+  "vehicle": "AgileX Scout 2.0",
+  "stage_units_m": 1.0,
+  "chassis": {
+    "length_m": 0.93,
+    "width_m": 0.70,
+    "height_m": 0.22,
+    "center_height_m": 0.27,
+    "mass_kg": 55.0
+  },
+  "wheels": {
+    "radius_m": 0.165,
+    "width_m": 0.115,
+    "track_width_m": 0.583,
+    "wheelbase_m": 0.58,
+    "mass_kg": 2.0,
+    "static_friction": 1.2,
+    "dynamic_friction": 1.0,
+    "restitution": 0.0
+  },
+  "drive": {
+    "max_speed_mps": 1.2,
+    "max_wheel_angular_speed_rad_s": 10.0,
+    "drive_damping": 20.0,
+    "drive_stiffness": 0.0,
+    "max_force_n": 250.0
+  },
+  "visual": {
+    "asset": "assets/scout_v2_isaac/Isaac_models/scout_v2_base.usd",
+    "scale": 0.01
+  }
+}

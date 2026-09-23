@@ -1,0 +1,7 @@
+point_id,x_world,y_world,speed_mps,route_name,source
+1,5.152879,47.188486,0.800,campus_main_road,manual_georeferenced_map
+2,5.152879,25.085257,0.800,campus_main_road,manual_georeferenced_map
+3,4.710719,9.612997,0.800,campus_main_road,manual_georeferenced_map
+4,4.710719,-5.859263,0.800,campus_main_road,manual_georeferenced_map
+5,5.152879,-20.447394,0.800,campus_main_road,manual_georeferenced_map
+6,4.268559,-37.245848,0.800,campus_main_road,manual_georeferenced_map

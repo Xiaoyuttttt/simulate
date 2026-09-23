@@ -1,0 +1,15 @@
+{
+  "project_root": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1",
+  "campus_usd": "/mnt/16T_2/txy/campus_robot/assets/library_AG_visual.usd",
+  "campus_3dgs_ply": "/mnt/16T_2/txy/campus_robot/assets/point_cloud.ply",
+  "output_dir": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/outputs/route_collection",
+  "map": {
+    "auto_bounds_percentile_low": 1.0,
+    "auto_bounds_percentile_high": 99.0,
+    "bounds_padding_m": 5.0,
+    "max_image_dimension_px": 4096,
+    "target_meters_per_pixel": 0.18,
+    "point_chunk_size": 2000000
+  },
+  "reference_waypoints_csv": "/mnt/16T_2/txy/campus_robot/project/campus_car_v1/config/waypoints.csv"
+}
